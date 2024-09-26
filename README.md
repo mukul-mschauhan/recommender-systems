@@ -7,4 +7,6 @@ Mac: ``virtualenv.venv``
 
 ### Activating the Virtual Environment 
 Mac/Windows: ``source .venv/Scripts/activate`` or
-Windows ``.venv/Scripts/activate``  
+Windows ``.venv/Scripts/activate`` 
+
+This is my Prject....
