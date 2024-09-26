@@ -1,0 +1,6 @@
+streamlit # Front End...
+google-generativeai # Generative AI Model
+python-dotenv # meant for local environment
+langchain
+langchain-google-genai
+# pip install -r requirememts.txt
