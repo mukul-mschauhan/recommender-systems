@@ -9,6 +9,7 @@ Mac: ``virtualenv.venv``
 Mac/Windows: ``source .venv/Scripts/activate`` or
 <<<<<<< HEAD
 Windows ``.venv/Scripts/activate``
+Windows ``.venv/Scripts/activate`` 
 
 #### Github
 
@@ -18,7 +19,3 @@ Windows ``.venv/Scripts/activate``
 3. git commit -m "First Commit"
 4. git push origin main
 =======
-Windows ``.venv/Scripts/activate`` 
-
-This is my Prject....
->>>>>>> 2a97c1b304d9fffab4ed6a484b65f183b70543d3
