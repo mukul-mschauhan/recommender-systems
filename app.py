@@ -4,17 +4,14 @@ from langchain import PromptTemplate, LLMChain
 from langchain_google_genai import ChatGoogleGenerativeAI
 import google.generativeai as genai
 
-
 # Import the Local Environment
 from dotenv import load_dotenv
 import os
-load_dotenv()
-genai.configure(api_key = os.getenv("GOOGLE-API-KEY"))
-
+genai.configure(api_key=os.getenv("GOOGLE-API-KEY"))
 
 # Design the Page... streamlit run app.py
-headers = {"authorization":st.secrets["GOOGLE-API-KEY"],
-           "content-type":"application/json"}
+#headers = {"authorization":st.secrets["GOOGLE-API-KEY"],
+           #"content-type":"application/json"}
 
 st.title("🆒Movie Recommender Systems...")
 user_input = st.text_input("Enter the Movie title, genre or keyword")
