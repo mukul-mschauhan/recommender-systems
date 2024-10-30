@@ -13,7 +13,7 @@ genai.configure(api_key=os.getenv("GOOGLE-API-KEY"))
 #headers = {"authorization":st.secrets["GOOGLE-API-KEY"],
            #"content-type":"application/json"}
 
-st.title("🆒Movie Recommender Systems...")
+st.title("🆒 Movie Recommender Systems...🎯 🎟️ 🍿")
 user_input = st.text_input("Enter the Movie title, genre or keyword")
 
 # Prompt Template
